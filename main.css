@@ -10,6 +10,9 @@
   color: #F6F3ED;
 }
 
+header{
+  text-decoration: white;
+}
 
 body {
   font-family: "Sarala", sans-serif;
@@ -33,10 +36,12 @@ h1, h2, h3 {
 }
 
 #cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+    color: #F6F3ED;
+
 }
 
 #cta .d-flex {
@@ -51,4 +56,8 @@ section:not(#hero):not(#cta){
   section:not(#hero):not(#cta){
     padding: 100px 0;
   }
+}
+
+ul {
+  list-style-type: none;
 }
